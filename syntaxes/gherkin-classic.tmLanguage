@@ -4,7 +4,7 @@
     <dict>
         <key>fileTypes</key>
         <array>
-            <string>feature</string>
+            <string>cucumber</string>
         </array>
         <key>firstLineMatch</key>
         <string>

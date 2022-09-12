@@ -40,6 +40,13 @@
         "configuration": "./language-configuration.json"
       }
     ],
+    "grammars": [
+      {
+        "language": "cucumber",
+        "scopeName": "source.feature",
+        "path": "./syntaxes/feature.tmLanguage.json"
+      }
+    ],
     "configuration": {
       "title": "Cucumber",
       "properties": {
@@ -50,6 +57,7 @@
           "default": [
             "src/test/**/*.feature",
             "features/**/*.feature",
+            "src/test/resources/features/**/*.feature",
             "tests/**/*.feature",
             "*specs*/**/.feature"
           ]
@@ -65,7 +73,8 @@
             "features/**/*.py",
             "tests/**/*.py",
             "features/**/*.rb",
-            "*specs*/**/.cs"
+            "*specs*/**/.cs",
+            "src/test/**/*.js"
           ]
         },
         "cucumber.parameterTypes": {
