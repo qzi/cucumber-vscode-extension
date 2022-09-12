@@ -14,7 +14,7 @@
       "patterns": [
         {
           "name": "keyword.control.feature",
-          "match": "\\b(Feature|Background|Scenario|Scenario Outline|Examples|Given|When|Then|But|And)\\b"
+          "match": "^.*?(Feature|Background|Scenario|Scenario Outline|Examples|Given|When|Then|But|And|@.*|#.*)"
         }
       ]
     },

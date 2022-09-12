@@ -4,7 +4,7 @@
     <dict>
         <key>fileTypes</key>
         <array>
-            <string>cucumber</string>
+            <string>feature</string>
         </array>
         <key>firstLineMatch</key>
         <string>
@@ -44,7 +44,7 @@
         <key>keyEquivalent</key>
         <string>^~C</string>
         <key>name</key>
-        <string>Gherkin</string>
+        <string>cucumber</string>
         <key>patterns</key>
         <array>
             <dict>
