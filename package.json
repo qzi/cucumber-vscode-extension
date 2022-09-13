@@ -44,7 +44,7 @@
       {
         "language": "cucumber",
         "scopeName": "source.feature",
-        "path": "./syntaxes/feature.tmLanguage.json"
+        "path": "./syntaxes/gherkin.tmLanguage.json"
       }
     ],
     "configuration": {
